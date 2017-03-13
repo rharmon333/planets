@@ -1,0 +1,154 @@
+    1  history | tail
+    2  cd ~/Desktop/170313_CmpCarpentryCourse/data-shell/
+    3  cd creatures/
+    4  cd ../writing
+    5  ls
+    6  cat haiku.txt 
+    7  grep not haiku.txt 
+    8  grep The haiku.txt 
+    9  grep The haiku.txt 
+   10  grep -w The haiku.txt 
+   11  grep -n The haiku.txt 
+   12  grep -E '^.0' haiku.txt 
+   13  grep -E '^.o' haiku.txt 
+   14  grep -E '^.[TS]' haiku.txt 
+   15  grep -E '^[TS]' haiku.txt 
+   16  grep -R -E '^[TS]' 
+   17  grep -R -E '^[TS]' *
+   18* 
+   19  grep -E '^$' writing/haiku.txt
+   20  ls
+   21  find .
+   22  find . -type d
+   23  find . -name "*.txt"
+   24  clear
+   25  find . -name "*.txt" -exec "head -2" {} \;
+   26  find . -name "*.txt" -exec head -2 {} \;
+   27  ls
+   28  echo 'ls'
+   29  cd ..
+   30  ls
+   31  echo 'ls'
+   32  for filename in 'find . -name "*.txt"'; do head -1 $filename |awk '{print $1}'; done
+   33  echo `ls`
+   34  ead -2$(find . -name *.txt)
+   35  head -2$(find . -name *.txt)
+   36  wc -l $(find . -name *.txt)
+   37  wc -l $(find . -name '*.txt')
+   38  find . -name "*.txt" | xargs wc -l
+   39  wc -l $(find . -name '*.dat') | sort -n
+   40  rm "scary snake"
+   41  rm "scary snake.txt"
+   42  rm "scary snake.dat"
+   43  ls
+   44  cd creatures
+   45  ls
+   46  rm "cute horse"
+   47  ls
+   48  rm "scary snake.dat"
+   49  wc -l $(find . -name '*.dat') | sort -n
+   50  grep -i "of" basilisk.dat 
+   51  cd ..
+   52  ls
+   53  cd thesis
+   54  ls
+   55  cd ..
+   56  cd data
+   57  ls
+   58  cd ..
+   59  ls
+   60  cd north-pacific-gyre/
+   61  cd ..
+   62  cd creatures/
+   63  ls -l
+   64  exit
+   65  exit
+   66  exit
+   67  git config --global user.name "Ryan Harmon"
+   68  git config --global user.email "ryanharmon@mines.edu"
+   69  git config --global color.ui "auto"
+   70  git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst-notabbar -nosession -noPlugin"
+   71  pwd
+   72  cd /Desktop/
+   73  mkdir planets
+   74  ls
+   75  pwd
+   76  cd /Desktop/
+   77  cd /Desktop
+   78  cd Desktop/
+   79  mkdir planets
+   80  ls
+   81  clear 
+   82  ls -a
+   83  ls -laF
+   84  git init
+   85  cd planets/
+   86  init git
+   87  git init
+   88  git status
+   89  clear 
+   90  ls -laF
+   91  notepad++ mars.txt
+   92  npp mars.txt
+   93  notepad mars.txt
+   94  cat mars.txt
+   95  git status
+   96  git add mars.txt
+   97  git status
+   98  git config --global --edit
+   99  alias notepad="c//Program\ Files\ \(x86\)/Notepad++/notepad++.exe"
+  100  notepad mars2.txt
+  101  alias notepad="/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"
+  102  notepad mars2.txt
+  103  cat mars2.txt
+  104  git add mars2.txt
+  105  git status
+  106  git commit -m "Start notes on mars"
+  107  git status
+  108  clear
+  109  git log
+  110  ls
+  111  ls -laF
+  112  notepad mars2.txt
+  113  git status
+  114  git diff
+  115  ls
+  116  git commit
+  117  git add mars2.txt
+  118  git commit
+  119  git commit
+  120  git log
+  121  ls
+  122  git config --global core.editor '"/c/Program Files (x86)/Notepad++/notepad++.exe"'
+  123  git commit
+  124  git commit
+  125  git log
+  126  notepad mars2.txt
+  127  git commit
+  128  git add mars2.txt
+  129  git commit
+  130  git status
+  131  git log -2
+  132  clear 
+  133  notepad mars2.txt
+  134  notepad venus.txt
+  135  git status
+  136  git add .
+  137  git status
+  138  git log
+  139  clear 
+  140  notepad mars2.txt
+  141  git diff
+  142  git diff HEAD mars2.txt
+  143  git diff HEAD~1
+  144  git add mars2.txt
+  145  git commit mars2.txt
+  146  git status
+  147  git diff
+  148  git diff HEAD
+  149  clear
+  150  git log
+  151  hist | tail
+  152  history | tail
+  153  history
+  154  history > history_writeout.txt
